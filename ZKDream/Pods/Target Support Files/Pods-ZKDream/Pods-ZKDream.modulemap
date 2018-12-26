@@ -1,0 +1,6 @@
+framework module Pods_ZKDream {
+  umbrella header "Pods-ZKDream-umbrella.h"
+
+  export *
+  module * { export * }
+}

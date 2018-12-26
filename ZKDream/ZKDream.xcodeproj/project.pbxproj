@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4040B94921D25DAA00301895 /* ZKTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4040B94821D25DAA00301895 /* ZKTest1.m */; };
+		4040B94C21D3276900301895 /* ZKMediator+MyActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040B94B21D3276900301895 /* ZKMediator+MyActions.swift */; };
+		4040B94F21D327F600301895 /* ZKMediator+LifeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040B94E21D327F600301895 /* ZKMediator+LifeActions.swift */; };
+		4040B95521D32A8100301895 /* ZKMyActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040B95421D32A8100301895 /* ZKMyActions.swift */; };
+		4040B95721D32B7800301895 /* ZKLifeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4040B95621D32B7800301895 /* ZKLifeActions.swift */; };
+		407CCB8A21B62C8500A04CEE /* ZKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB8921B62C8500A04CEE /* ZKBaseViewController.swift */; };
+		407CCB8C21B62CB000A04CEE /* ZKBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB8B21B62CB000A04CEE /* ZKBaseNavigationController.swift */; };
+		407CCB8E21B62D0B00A04CEE /* ZKBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB8D21B62D0B00A04CEE /* ZKBaseView.swift */; };
+		407CCB9121B63C6100A04CEE /* MacroDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB9021B63C6100A04CEE /* MacroDefinition.swift */; };
+		407CCB9321B640B300A04CEE /* ZKBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB9221B640B300A04CEE /* ZKBaseTabBarController.swift */; };
+		407CCB9C21B6648D00A04CEE /* ZKMyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB9B21B6648D00A04CEE /* ZKMyNavigationController.swift */; };
+		407CCB9E21B6652400A04CEE /* ZKLifeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCB9D21B6652400A04CEE /* ZKLifeNavigationController.swift */; };
+		407CCBA121B692F500A04CEE /* ZKMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407CCBA021B692F500A04CEE /* ZKMediator.swift */; };
+		40EA7F2E214A0AA100CD1D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA7F2D214A0AA100CD1D8C /* AppDelegate.swift */; };
+		40EA7F35214A0AA300CD1D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA7F34214A0AA300CD1D8C /* Assets.xcassets */; };
+		40EA7F38214A0AA300CD1D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA7F36214A0AA300CD1D8C /* LaunchScreen.storyboard */; };
+		CCD10D89E9235799FB4E072B /* Pods_ZKDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D72702B0186D07305C8F4 /* Pods_ZKDream.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40EA7F3F214A0AA300CD1D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EA7F22214A0AA100CD1D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EA7F29214A0AA100CD1D8C;
+			remoteInfo = ZKDream;
+		};
+		40EA7F4A214A0AA300CD1D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EA7F22214A0AA100CD1D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EA7F29214A0AA100CD1D8C;
+			remoteInfo = ZKDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4040B94721D25DAA00301895 /* ZKTest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKTest1.h; sourceTree = "<group>"; };
+		4040B94821D25DAA00301895 /* ZKTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTest1.m; sourceTree = "<group>"; };
+		4040B94B21D3276900301895 /* ZKMediator+MyActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZKMediator+MyActions.swift"; sourceTree = "<group>"; };
+		4040B94E21D327F600301895 /* ZKMediator+LifeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZKMediator+LifeActions.swift"; sourceTree = "<group>"; };
+		4040B95421D32A8100301895 /* ZKMyActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKMyActions.swift; sourceTree = "<group>"; };
+		4040B95621D32B7800301895 /* ZKLifeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKLifeActions.swift; sourceTree = "<group>"; };
+		407CCB8921B62C8500A04CEE /* ZKBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKBaseViewController.swift; sourceTree = "<group>"; };
+		407CCB8B21B62CB000A04CEE /* ZKBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKBaseNavigationController.swift; sourceTree = "<group>"; };
+		407CCB8D21B62D0B00A04CEE /* ZKBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKBaseView.swift; sourceTree = "<group>"; };
+		407CCB9021B63C6100A04CEE /* MacroDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDefinition.swift; sourceTree = "<group>"; };
+		407CCB9221B640B300A04CEE /* ZKBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKBaseTabBarController.swift; sourceTree = "<group>"; };
+		407CCB9B21B6648D00A04CEE /* ZKMyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKMyNavigationController.swift; sourceTree = "<group>"; };
+		407CCB9D21B6652400A04CEE /* ZKLifeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKLifeNavigationController.swift; sourceTree = "<group>"; };
+		407CCBA021B692F500A04CEE /* ZKMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKMediator.swift; sourceTree = "<group>"; };
+		40A7061D21C8DC540063B4B0 /* ZKDream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZKDream-Bridging-Header.h"; sourceTree = "<group>"; };
+		40EA7F2A214A0AA100CD1D8C /* ZKDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EA7F2D214A0AA100CD1D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EA7F34214A0AA300CD1D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EA7F37214A0AA300CD1D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40EA7F39214A0AA300CD1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EA7F3E214A0AA300CD1D8C /* ZKDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EA7F49214A0AA300CD1D8C /* ZKDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5789A83B3155F9500AA7BBCD /* Pods-ZKDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKDream/Pods-ZKDream.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7D72702B0186D07305C8F4 /* Pods_ZKDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66C3F03EDE64F1712A3DA0F /* Pods-ZKDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKDream/Pods-ZKDream.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EA7F27214A0AA100CD1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD10D89E9235799FB4E072B /* Pods_ZKDream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F3B214A0AA300CD1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F46214A0AA300CD1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2694CCB650A9A721B0B8C369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5789A83B3155F9500AA7BBCD /* Pods-ZKDream.debug.xcconfig */,
+				E66C3F03EDE64F1712A3DA0F /* Pods-ZKDream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4040B94A21D3256300301895 /* My_Actions */ = {
+			isa = PBXGroup;
+			children = (
+				4040B94B21D3276900301895 /* ZKMediator+MyActions.swift */,
+			);
+			path = My_Actions;
+			sourceTree = "<group>";
+		};
+		4040B94D21D327B100301895 /* Life_Actions */ = {
+			isa = PBXGroup;
+			children = (
+				4040B94E21D327F600301895 /* ZKMediator+LifeActions.swift */,
+			);
+			path = Life_Actions;
+			sourceTree = "<group>";
+		};
+		4040B95021D328C200301895 /* Test(测试用) */ = {
+			isa = PBXGroup;
+			children = (
+				4040B94721D25DAA00301895 /* ZKTest1.h */,
+				4040B94821D25DAA00301895 /* ZKTest1.m */,
+			);
+			path = "Test(测试用)";
+			sourceTree = "<group>";
+		};
+		4040B95821D32C1400301895 /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB9D21B6652400A04CEE /* ZKLifeNavigationController.swift */,
+			);
+			path = NavController;
+			sourceTree = "<group>";
+		};
+		407CCB8421B62AFD00A04CEE /* ZKBaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB8F21B63B0A00A04CEE /* MacroDefinition */,
+				407CCB8521B62B6300A04CEE /* BaseView */,
+				407CCB8621B62B7100A04CEE /* BaseViewController */,
+			);
+			path = ZKBaseModule;
+			sourceTree = "<group>";
+		};
+		407CCB8521B62B6300A04CEE /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB8D21B62D0B00A04CEE /* ZKBaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		407CCB8621B62B7100A04CEE /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB8921B62C8500A04CEE /* ZKBaseViewController.swift */,
+				407CCB9221B640B300A04CEE /* ZKBaseTabBarController.swift */,
+				407CCB8B21B62CB000A04CEE /* ZKBaseNavigationController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		407CCB8F21B63B0A00A04CEE /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB9021B63C6100A04CEE /* MacroDefinition.swift */,
+			);
+			path = MacroDefinition;
+			sourceTree = "<group>";
+		};
+		407CCB9421B6600700A04CEE /* ZKBusinessModule */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB9521B6636C00A04CEE /* My */,
+				407CCB9621B6638A00A04CEE /* Life */,
+			);
+			path = ZKBusinessModule;
+			sourceTree = "<group>";
+		};
+		407CCB9521B6636C00A04CEE /* My */ = {
+			isa = PBXGroup;
+			children = (
+				4040B95421D32A8100301895 /* ZKMyActions.swift */,
+				407CCB9721B6639E00A04CEE /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		407CCB9621B6638A00A04CEE /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				4040B95621D32B7800301895 /* ZKLifeActions.swift */,
+				407CCB9821B663B600A04CEE /* ViewController */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		407CCB9721B6639E00A04CEE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB9921B6642700A04CEE /* NavController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		407CCB9821B663B600A04CEE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4040B95821D32C1400301895 /* NavController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		407CCB9921B6642700A04CEE /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				407CCB9B21B6648D00A04CEE /* ZKMyNavigationController.swift */,
+			);
+			path = NavController;
+			sourceTree = "<group>";
+		};
+		407CCB9F21B692C200A04CEE /* ZKMediator */ = {
+			isa = PBXGroup;
+			children = (
+				407CCBA021B692F500A04CEE /* ZKMediator.swift */,
+			);
+			path = ZKMediator;
+			sourceTree = "<group>";
+		};
+		407CCBA421B69BA800A04CEE /* Categories(实际应用中，这是一个单独的repo，所用需要调度其他模块的人，只需要依赖这个repo。这个repo由target-action维护者维护) */ = {
+			isa = PBXGroup;
+			children = (
+				4040B94A21D3256300301895 /* My_Actions */,
+				4040B94D21D327B100301895 /* Life_Actions */,
+			);
+			path = "Categories(实际应用中，这是一个单独的repo，所用需要调度其他模块的人，只需要依赖这个repo。这个repo由target-action维护者维护)";
+			sourceTree = "<group>";
+		};
+		40EA7F21214A0AA100CD1D8C = {
+			isa = PBXGroup;
+			children = (
+				40EA7F2C214A0AA100CD1D8C /* ZKDream */,
+				40EA7F2B214A0AA100CD1D8C /* Products */,
+				2694CCB650A9A721B0B8C369 /* Pods */,
+				FC321452ADFDB8F5E8340251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40EA7F2B214A0AA100CD1D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EA7F2A214A0AA100CD1D8C /* ZKDream.app */,
+				40EA7F3E214A0AA300CD1D8C /* ZKDreamTests.xctest */,
+				40EA7F49214A0AA300CD1D8C /* ZKDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EA7F2C214A0AA100CD1D8C /* ZKDream */ = {
+			isa = PBXGroup;
+			children = (
+				40EA7F2D214A0AA100CD1D8C /* AppDelegate.swift */,
+				407CCBA421B69BA800A04CEE /* Categories(实际应用中，这是一个单独的repo，所用需要调度其他模块的人，只需要依赖这个repo。这个repo由target-action维护者维护) */,
+				407CCB9F21B692C200A04CEE /* ZKMediator */,
+				407CCB8421B62AFD00A04CEE /* ZKBaseModule */,
+				407CCB9421B6600700A04CEE /* ZKBusinessModule */,
+				4040B95021D328C200301895 /* Test(测试用) */,
+				40EA7F34214A0AA300CD1D8C /* Assets.xcassets */,
+				40EA7F36214A0AA300CD1D8C /* LaunchScreen.storyboard */,
+				40EA7F39214A0AA300CD1D8C /* Info.plist */,
+				40A7061D21C8DC540063B4B0 /* ZKDream-Bridging-Header.h */,
+			);
+			path = ZKDream;
+			sourceTree = "<group>";
+		};
+		FC321452ADFDB8F5E8340251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D72702B0186D07305C8F4 /* Pods_ZKDream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EA7F29214A0AA100CD1D8C /* ZKDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA7F52214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDream" */;
+			buildPhases = (
+				5C0B094DA59ADFFAB8321612 /* [CP] Check Pods Manifest.lock */,
+				40EA7F26214A0AA100CD1D8C /* Sources */,
+				40EA7F27214A0AA100CD1D8C /* Frameworks */,
+				40EA7F28214A0AA100CD1D8C /* Resources */,
+				A059FE96A5C53E4B432B99CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKDream;
+			productName = ZKDream;
+			productReference = 40EA7F2A214A0AA100CD1D8C /* ZKDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40EA7F3D214A0AA300CD1D8C /* ZKDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA7F55214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDreamTests" */;
+			buildPhases = (
+				40EA7F3A214A0AA300CD1D8C /* Sources */,
+				40EA7F3B214A0AA300CD1D8C /* Frameworks */,
+				40EA7F3C214A0AA300CD1D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EA7F40214A0AA300CD1D8C /* PBXTargetDependency */,
+			);
+			name = ZKDreamTests;
+			productName = ZKDreamTests;
+			productReference = 40EA7F3E214A0AA300CD1D8C /* ZKDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40EA7F48214A0AA300CD1D8C /* ZKDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA7F58214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDreamUITests" */;
+			buildPhases = (
+				40EA7F45214A0AA300CD1D8C /* Sources */,
+				40EA7F46214A0AA300CD1D8C /* Frameworks */,
+				40EA7F47214A0AA300CD1D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EA7F4B214A0AA300CD1D8C /* PBXTargetDependency */,
+			);
+			name = ZKDreamUITests;
+			productName = ZKDreamUITests;
+			productReference = 40EA7F49214A0AA300CD1D8C /* ZKDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EA7F22214A0AA100CD1D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Li,Zhikai";
+				TargetAttributes = {
+					40EA7F29214A0AA100CD1D8C = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					40EA7F3D214A0AA300CD1D8C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 40EA7F29214A0AA100CD1D8C;
+					};
+					40EA7F48214A0AA300CD1D8C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 40EA7F29214A0AA100CD1D8C;
+					};
+				};
+			};
+			buildConfigurationList = 40EA7F25214A0AA100CD1D8C /* Build configuration list for PBXProject "ZKDream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EA7F21214A0AA100CD1D8C;
+			productRefGroup = 40EA7F2B214A0AA100CD1D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EA7F29214A0AA100CD1D8C /* ZKDream */,
+				40EA7F3D214A0AA300CD1D8C /* ZKDreamTests */,
+				40EA7F48214A0AA300CD1D8C /* ZKDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EA7F28214A0AA100CD1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA7F38214A0AA300CD1D8C /* LaunchScreen.storyboard in Resources */,
+				40EA7F35214A0AA300CD1D8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F3C214A0AA300CD1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F47214A0AA300CD1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C0B094DA59ADFFAB8321612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A059FE96A5C53E4B432B99CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZKDream/Pods-ZKDream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKDream/Pods-ZKDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EA7F26214A0AA100CD1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4040B95521D32A8100301895 /* ZKMyActions.swift in Sources */,
+				407CCB9E21B6652400A04CEE /* ZKLifeNavigationController.swift in Sources */,
+				4040B94F21D327F600301895 /* ZKMediator+LifeActions.swift in Sources */,
+				407CCB8E21B62D0B00A04CEE /* ZKBaseView.swift in Sources */,
+				407CCB8A21B62C8500A04CEE /* ZKBaseViewController.swift in Sources */,
+				407CCB9C21B6648D00A04CEE /* ZKMyNavigationController.swift in Sources */,
+				4040B94C21D3276900301895 /* ZKMediator+MyActions.swift in Sources */,
+				407CCB8C21B62CB000A04CEE /* ZKBaseNavigationController.swift in Sources */,
+				4040B94921D25DAA00301895 /* ZKTest1.m in Sources */,
+				407CCBA121B692F500A04CEE /* ZKMediator.swift in Sources */,
+				4040B95721D32B7800301895 /* ZKLifeActions.swift in Sources */,
+				407CCB9121B63C6100A04CEE /* MacroDefinition.swift in Sources */,
+				407CCB9321B640B300A04CEE /* ZKBaseTabBarController.swift in Sources */,
+				40EA7F2E214A0AA100CD1D8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F3A214A0AA300CD1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA7F45214A0AA300CD1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40EA7F40214A0AA300CD1D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40EA7F29214A0AA100CD1D8C /* ZKDream */;
+			targetProxy = 40EA7F3F214A0AA300CD1D8C /* PBXContainerItemProxy */;
+		};
+		40EA7F4B214A0AA300CD1D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40EA7F29214A0AA100CD1D8C /* ZKDream */;
+			targetProxy = 40EA7F4A214A0AA300CD1D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40EA7F36214A0AA300CD1D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EA7F37214A0AA300CD1D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EA7F50214A0AA300CD1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EA7F51214A0AA300CD1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EA7F53214A0AA300CD1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5789A83B3155F9500AA7BBCD /* Pods-ZKDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T9LLJKSM4;
+				INFOPLIST_FILE = ZKDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZKDream/ZKDream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EA7F54214A0AA300CD1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66C3F03EDE64F1712A3DA0F /* Pods-ZKDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T9LLJKSM4;
+				INFOPLIST_FILE = ZKDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZKDream/ZKDream-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40EA7F56214A0AA300CD1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKDream.app/ZKDream";
+			};
+			name = Debug;
+		};
+		40EA7F57214A0AA300CD1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKDream.app/ZKDream";
+			};
+			name = Release;
+		};
+		40EA7F59214A0AA300CD1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKDream;
+			};
+			name = Debug;
+		};
+		40EA7F5A214A0AA300CD1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.ZKDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EA7F25214A0AA100CD1D8C /* Build configuration list for PBXProject "ZKDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA7F50214A0AA300CD1D8C /* Debug */,
+				40EA7F51214A0AA300CD1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EA7F52214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA7F53214A0AA300CD1D8C /* Debug */,
+				40EA7F54214A0AA300CD1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EA7F55214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA7F56214A0AA300CD1D8C /* Debug */,
+				40EA7F57214A0AA300CD1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EA7F58214A0AA300CD1D8C /* Build configuration list for PBXNativeTarget "ZKDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA7F59214A0AA300CD1D8C /* Debug */,
+				40EA7F5A214A0AA300CD1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EA7F22214A0AA100CD1D8C /* Project object */;
+}

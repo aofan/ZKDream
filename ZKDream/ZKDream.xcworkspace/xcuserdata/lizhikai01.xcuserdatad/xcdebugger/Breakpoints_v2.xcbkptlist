@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZKDream/ZKMediator/ZKMediator.swift"
+            timestampString = "567488221.258296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "performTarget(targetName:actionName:param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZKDream/Categories(&#x5b9e;&#x9645;&#x5e94;&#x7528;&#x4e2d;&#xff0c;&#x8fd9;&#x662f;&#x4e00;&#x4e2a;&#x5355;&#x72ec;&#x7684;repo&#xff0c;&#x6240;&#x7528;&#x9700;&#x8981;&#x8c03;&#x5ea6;&#x5176;&#x4ed6;&#x6a21;&#x5757;&#x7684;&#x4eba;&#xff0c;&#x53ea;&#x9700;&#x8981;&#x4f9d;&#x8d56;&#x8fd9;&#x4e2a;repo&#x3002;&#x8fd9;&#x4e2a;repo&#x7531;target-action&#x7ef4;&#x62a4;&#x8005;&#x7ef4;&#x62a4;)/CTMediator+CTMediatorModuleAActions.swift"
+            timestampString = "567436577.612829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "CTMediator_viewControllerForDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
